@@ -19,7 +19,3 @@ A continuación, luego de haber leído las variables que se encuentran en nuestr
 4.  ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
 5.  ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
 6.  ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?
-
-## Datos
-
-Para responder las preguntas expuestas anteriormente, utilizaremos los siguientes datos:
