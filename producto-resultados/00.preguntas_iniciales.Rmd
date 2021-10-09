@@ -1,0 +1,25 @@
+---
+title: "Preguntas iniciales"
+author: "Javiera Valenzuela"
+date: "08-10-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Nuestra base de datos contiene la información entre los años 2017-2020 del puntaje de felicidad de diferentes países. Estos puntajes fueron obtenidos a través de seis factores distintos y fueron contabilizados utilizando la escala de Cantril.
+
+A continuación, luego de haber leído las variables que se encuentran en nuestra data, nos surgieron las siguientes interrogantes que esperamos responder durante la realización de nuestro proyecto.
+
+1.  ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
+2.  ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
+3.  ¿Los países más afectados por el COVID fueron los que tenían habitantes más felices?
+4.  ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
+5.  ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
+6.  ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?
+
+## Datos
+
+Para responder las preguntas expuestas anteriormente, utilizaremos los siguientes datos:
