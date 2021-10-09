@@ -1,6 +1,6 @@
 # 🔎 Proyecto sobre la felicidad en el mundo 🔎
 
-Este proyecto aborda el nivel de felicidad existente en el mundo y cuáles son (o si existen) sus variables de correlación y/o causalidad. Acontinuación se presentarán los cuatro repositorios existentes en este proyecto:
+Este proyecto aborda el nivel de felicidad existente en el mundo y cuáles son (o si existen) variables de correlación y/o causalidad. Acontinuación se presentarán los cuatro repositorios existentes en este proyecto:
 
 ## Data set📁:
 
