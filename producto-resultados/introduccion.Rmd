@@ -2,3 +2,24 @@
 output: html_document
 ---
 
+# Introducción
+
+Hoy en día el concepto de felicidad ha tomado una gran importancia, ya que alcanzar el estado de satisfacción con la vida se ha convertido en una meta que la mayoría de la población quiere alcanzar (FUENTE UNIVERSIDADVIU). Por el motivo anterior, medir este concepto se ha convertido en algo de gran importancia, ya que así se logra entender el cómo se puede fomentar de manera efectiva la satisfacción con la vida de cada individuo.
+
+Para lograr lo anterior, se deben reconocer las aristas que influyen en el crecimiento de la felicidad y bienestar en los seres humanos, en donde variables como el crecimiento económico, salud y políticas de gobierno, toman el principal foco de atención. Para esto se analizarán encuestas hechas por "World Happiness Report" que tuvieron en cuenta las variables anteriormente mencionadas y así hacer una proyección con los datos recolectados entre los años 2017-2020 para ver si efectivamente la fluctuación de los factores anteriormente mencionados influyen en la felicidad percibida por la sociedad.
+
+El siguiente informe tiene como objetivo mostrar cómo ciertas variables pueden explicar la felicidad percibida en los diversos países, para así lograr responder las siguientes preguntas:
+
+1- ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
+
+2- ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
+
+3- ¿Los países más afectados por el COVID fueron los que tenían habitantes más felices?
+
+4- ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
+
+5- ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
+
+6- ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?
+
+Para lograr lo anterior, se describirá la base de datos y sus variables, en donde comenzaremos describiendo los ambientes para la felicidad para luego ir viendo cómo fluctúa en los distintos países y así comparar entre distintos continentes y/o culturas. Se prestará atención a la fluctuación de nivel de población y crecimiento económico de cada país mediante mapas descriptivos, para luego finalizar en cómo los datos obtenidos lograron influenciar en los efectos del COVID en cada país, según la tasa de muerte de estos. Para terminar, se entregarán las conclusiones y recomendaciones que cada país debiese tener en cuenta para aumentar el nivel de felicidad de su población y cómo estos han ido progresando a lo largo de los años.
