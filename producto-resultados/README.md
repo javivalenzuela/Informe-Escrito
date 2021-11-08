@@ -6,9 +6,11 @@ En esta carpeta se encontrará guardada la información y subdivisión de nuestr
 
 A continuación se encuentra la introducción a nuestro informe, presentando el objetivo que queremos lograr con este. (Primera versión).
 
-## Preguntas iniciales:
+-   ***Preguntas iniciales*** :bulb:
 
 ## Desarrollo:
+
+-   ***Gráficos*** :bar_chart:
 
 ## Conclusiones:
 
