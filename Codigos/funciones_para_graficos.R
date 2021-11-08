@@ -62,4 +62,4 @@ ranking_felicidad_2021 %>%
        y = "PIB per cápita",
        caption = "Elaboración propia a partir de datos de worldhappiness.report")
 
-ggsave("figuras/funciones_para_graficos.png", height = 6, width = 10)
+ggsave("figuras/funciones_para_graficos.png", height = 5, width = 8)

@@ -2,10 +2,7 @@
 title: "Gráficos de Resultados"
 author: "Javiera Valenzuela"
 date: "08-11-2021"
-output:
-  rmdformats::downcute:
-    default_style: "dark"
-    downcute_theme: "chaos"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Gráfico 1:
 
 Hoy en día suele generarse un gran debate por la definición y factores que pueden afectar a la felicidad de cada individuo de distintos países.\
-El dinero suele creerse que es uno de los principales factores en el índice y/o percepción de la felicidad de las personas, surgiendo así la pregunta "¿El dinero realmente influye en la felicidad?". \
+El dinero suele creerse que es uno de los principales factores en el índice y/o percepción de la felicidad de las personas, surgiendo así la pregunta "¿El dinero realmente influye en la felicidad?".\
 Para responder lo anterior, analizaremos el gráfico de "PIB per cápita/Escala de la Felcidad":
 
 ```{r, echo=FALSE}
