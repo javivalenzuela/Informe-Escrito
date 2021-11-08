@@ -1,0 +1,34 @@
+---
+title: "Gráficos de Resultados"
+author: "Javiera Valenzuela"
+date: "08-11-2021"
+output:
+  rmdformats::downcute:
+    default_style: "dark"
+    downcute_theme: "chaos"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Gráfico 1:
+
+Hoy en día suele generarse un gran debate por la definición y factores que pueden afectar a la felicidad de cada individuo de distintos países.\
+El dinero suele creerse que es uno de los principales factores en el índice y/o percepción de la felicidad de las personas, surgiendo así la pregunta "¿El dinero realmente influye en la felicidad?". \
+Para responder lo anterior, analizaremos el gráfico de "PIB per cápita/Escala de la Felcidad":
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/funciones_para_graficos.png"))
+```
+
+## Conclusión:
+
+Primero que todo, debemos tener en consideración que el puntaje en la Escalera de Felicidad está medido bajo la escalera de Cantril, la cuál resulta luego de preguntarle a cada persona "¿qué tan feliz se considera?" siendo el valor mínimo 0 y valor máximo un 10.
+
+Con lo anterior en mente, podemos apreciar que, puede que el dinero no haga realmente la felicidad, pero sí afecta en la percepción de ella, ya que podemos ver en los países del continente Europeo, quienes son los que poseen un PIB per cápita más elevado en comparación al resto, suelen alcanzar puntajes elevados en la escalera de felicidad de cada persona.
+
+Sin embargo, en países del continente de Asia, podemos apreciar el caso de que, a pesar que se posee un PIB per cápita elevado, el puntaje en la escalera de felicidad es bajo para ese nivel de PIB.
+
+Lo anterior se puede explicar con un ejemplo; una persona que siempre ha poseído una gran cantidad de dinero, el tener un poco más de este, no va a marcar un gran impacto en su bienestar/felicidad. Por otro lado, una persona de escasos recursos, el hecho de tener un poco más de libertad económica, sí hará una diferencia en su bienestar/felicidad, ya que habrá pasado de no tener nada, a tener algo con lo que podrá administrar y mejorar su sensación de Bienestar.

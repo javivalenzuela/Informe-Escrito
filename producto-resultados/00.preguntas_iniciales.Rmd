@@ -9,11 +9,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-La base de datos que contiene nuestro informe posee información sobre la felicidad e índices de libertad de la población de diversos países sobre los años 2020 y 2019 explicada a través de diversas variables. Sin embargo, la data set de nuestro proyecto, contiene la evolución de esas variables a través de los años:
+La base de datos que contiene nuestro informe presenta información de distintos países durante los años 2019 y 2020 sobre el nivel de felicidad y libertad alcanzada por la población. El primer factor mencionado puede verse influenciado y/o correlacionado por las distintas variables que presenta la data como PIB per cápita, confiabilidad en el gobierno de turno, esperanza de vida, etc. \
+Para el segundo factor, el considerarse una persona libre puede garantizar y o poseer beneficios que pueden variar según cada persona y cultura, por lo que, a partir de los dos factores anteriores, nos surguieron las siguientes preguntas que esperamos responder a lo largo del proyecto:
 
-Nuestra base de datos contiene la información entre los años 2017-2020 del puntaje de felicidad de diferentes países. Estos puntajes fueron obtenidos a través de seis factores distintos y fueron contabilizados utilizando la escala de Cantril.
-
-A continuación, luego de haber leído las variables que se encuentran en nuestra data, nos surgieron las siguientes interrogantes que esperamos responder durante la realización de nuestro proyecto.
+1.  ¿Cómo se refleja en el mundo la libertad económica de región geográfica del mundo?
+2.  Los países con mejor índice de economía, ¿se consideran más felices?
+3.  ¿Que variables logran explicar mejor los índices de felicidad de los habitantes de distintos países?
+4.  ¿Cómo se ve afectada la diversidad de género y beneficios en países con elevados índices de libertad?
+5.  ¿Cómo se vieron afectados los países en relación al COVID?
 
 1.  ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
 2.  ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
