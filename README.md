@@ -20,8 +20,8 @@ Esta carpeta va a inlcuir los códigos que se utilizarán para analizar y proces
 
 ## Gráficos:bar_chart: :
 
-En esta carpeta se guardarán los gráficos obtenidos de nuestras fuentes de los datos y los futuros gráficos que crearemos para presentar en el proyecto.:white_check_mark:
+En esta carpeta se guardarán los gráficos obtenidos de nuestras fuentes de los datos y los futuros gráficos que crearemos para presentar en el proyecto.
 
-## [Producto-Resultados]: (<https://javivalenzuela.github.io/Informe-Escrito/producto-resultados/>) 
+## [Producto-Resultados:](https://javivalenzuela.github.io/Informe-Escrito/producto-resultados/) :white_check_mark:
 
 En esta carpeta se encontrará la subdivisión (o índice) de nuestro proyecto y fuentes de nuestra base de datos, que presentaremos en unas semanas más y así tener una visualización más clara de la forma de nuestro informe.
