@@ -6,11 +6,11 @@ En esta carpeta se encontrará guardada la información y subdivisión de nuestr
 
 A continuación se encuentra la introducción a nuestro informe, presentando el objetivo que queremos lograr con este. (Primera versión).
 
--   ***Preguntas iniciales*** :bulb:
+### Preguntas iniciales::bulb:
 
 ## Desarrollo:
 
--   ***Gráficos*** :bar_chart:
+## [Gráficos:](https://javivalenzuela.github.io/Informe-Escrito/producto-resultados/Graficos-Activadad-11.html) :bar_chart:
 
 ## Conclusiones:
 
