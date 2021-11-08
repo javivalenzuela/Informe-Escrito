@@ -1,0 +1,21 @@
+---
+title: "Gráficos"
+author: "Javiera Valenzuela"
+date: "08-11-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Gráficos:
+
+A continuación se presentarán los gráficos que se harán y utilizarán para el presente proyecto.
+
+### Gráfico 1: PIB per cápita v/s Escala de Felcidad
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/funciones_para_graficos.png"))
+```
