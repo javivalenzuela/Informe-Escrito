@@ -1,5 +1,5 @@
 ---
-title: "Introducción"
+title: "Preguntas iniciales"
 author: "Javiera Valenzuela"
 date: "08-10-2021"
 output: html_document
@@ -8,6 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+La base de datos que contiene nuestro informe posee información sobre la felicidad e índices de libertad de la población de diversos países sobre los años 2020 y 2019 explicada a través de diversas variables. Sin embargo, la data set de nuestro proyecto, contiene la evolución de esas variables a través de los años:
 
 Nuestra base de datos contiene la información entre los años 2017-2020 del puntaje de felicidad de diferentes países. Estos puntajes fueron obtenidos a través de seis factores distintos y fueron contabilizados utilizando la escala de Cantril.
 
