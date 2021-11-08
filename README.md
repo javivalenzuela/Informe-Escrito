@@ -4,6 +4,11 @@ Este proyecto aborda el nivel de felicidad existente en el mundo y cuáles son (
 
 ## Data set📁:
 
+El data set de este proyecto está conformado por 5 csv que contienen información
+de distintos países y su niveles de felicidad y libertad en base a diversos factores
+que se irán analizando a lo largo del informe. Esta base fue obtenida de las páginas:
+https://worldhappiness.report/ed/2021/#appendices-and-data
+
 Esta carpeta contiene las bases de datos que se obtuvieron de las fuentes que en la carpeta *Productos-resultados* estará más detallado, para poder realizar el estudio de este proyecto.
 
 ## Codigos💾 :

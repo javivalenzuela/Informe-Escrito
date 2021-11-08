@@ -1,6 +1,7 @@
 ## CARGAR LIBRERÍAS ##
 library(readxl)
 library(readr)
+library(esquisse)
 #### ============ ####
 
 ## == Cargar los datos == ##
@@ -12,6 +13,7 @@ inidice_de_libertad_2020 <- read_csv("data_set/OPCION 2/SIN-human-freedom-index-
 indice_gini <- read_csv("data_set/OPCION 1/archivos_con_la_data/indice_gini.csv", 
                         col_types = cols(`1803` = col_number()), 
                         na = "NA")
+
 ###  ================  ###
 
 
