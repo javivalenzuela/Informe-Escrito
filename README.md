@@ -18,7 +18,7 @@ Los datos fueron extraídos de las siguientes páginas web :copyright::
 
 Esta carpeta va a inlcuir los códigos que se utilizarán para analizar y procesar los datos y obtener así conclusiones para nuestro proyecto.
 
-## Gráficos::bar_chart:
+## [Gráficos:](<https://javivalenzuela.github.io/Informe-Escrito/figuras/graficos.html>):bar_chart:
 
 En esta carpeta se guardarán los gráficos obtenidos de nuestras fuentes de los datos y los futuros gráficos que crearemos para presentar en el proyecto.
 
