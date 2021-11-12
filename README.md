@@ -4,7 +4,7 @@ Este proyecto aborda el nivel de felicidad existente en el mundo y cuáles son (
 
 ## Data set:file_folder::
 
-El data set de este proyectoestá conformado por 4 archivos .xls y 3 archivos .csv. Estos contienen información de diversos países que nos ayudarán a entender los niveles de felicidad y percepción de libertad de los habitantes de cada territorio en base a diversas variables como PIB per cápita, esperanza de vida, etc.
+El data set de este proyecto está conformado por 4 archivos .xls y 3 archivos .csv. Estos contienen información de diversos países que nos ayudarán a entender los niveles de felicidad y percepción de libertad de los habitantes de cada territorio en base a diversas variables como PIB per cápita, esperanza de vida, etc.
 
 Los datos fueron extraídos de las siguientes páginas web :copyright::
 
