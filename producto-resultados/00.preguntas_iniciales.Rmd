@@ -9,18 +9,27 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-La base de datos que contiene nuestro informe presenta información de distintos países durante los años 2019 y 2020 sobre el nivel de felicidad y libertad alcanzada por la población. El primer factor mencionado puede verse influenciado y/o correlacionado por las distintas variables que presenta la data como PIB per cápita, confiabilidad en el gobierno de turno, esperanza de vida, etc. \
+La base de datos que contiene nuestro informe presenta información de distintos países durante los años 2019 y 2020 sobre el nivel de felicidad y libertad alcanzada por la población. El primer factor mencionado puede verse influenciado y/o correlacionado por las distintas variables que presenta la data como PIB per cápita, confiabilidad en el gobierno de turno, esperanza de vida, etc.\
 Para el segundo factor, el considerarse una persona libre puede garantizar y o poseer beneficios que pueden variar según cada persona y cultura, por lo que, a partir de los dos factores anteriores, nos surguieron las siguientes preguntas que esperamos responder a lo largo del proyecto:
 
 1.  ¿Cómo se refleja en el mundo la libertad económica de región geográfica del mundo?
+
 2.  Los países con mejor índice de economía, ¿se consideran más felices?
+
 3.  ¿Que variables logran explicar mejor los índices de felicidad de los habitantes de distintos países?
+
 4.  ¿Cómo se ve afectada la diversidad de género y beneficios en países con elevados índices de libertad?
+
 5.  ¿Cómo se vieron afectados los países en relación al COVID?
 
-1.  ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
-2.  ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
-3.  ¿Los países más afectados por el COVID fueron los que tenían habitantes más felices?
-4.  ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
-5.  ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
-6.  ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?
+6.  ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
+
+7.  ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
+
+8.  ¿Los países más afectados por el COVID fueron los que tenían habitantes más felices?
+
+9.  ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
+
+10. ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
+
+11. ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?

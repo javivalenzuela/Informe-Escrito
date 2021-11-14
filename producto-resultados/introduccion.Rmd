@@ -1,9 +1,10 @@
 ---
 title: Introducción
 
-subtitle: ¿Cuál es el secreto de la felicidad?
+subtitle: "¿Cuál es el secreto de la felicidad?"
 
-author: Javiera Valenzuela Soto
+author: "Javiera Valenzuela Soto"
+
 output: html_document
 ---
 
