@@ -1,5 +1,5 @@
 ---
-title: "Preguntas iniciales"
+title: Preguntas iniciales
 author: "Javiera Valenzuela"
 date: "08-10-2021"
 output: html_document
@@ -9,7 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-La base de datos que contiene nuestro informe presenta información de distintos países durante los años 2019 y 2020 sobre el nivel de felicidad y libertad alcanzada por la población. El primer factor mencionado puede verse influenciado y/o correlacionado por las distintas variables que presenta la data como PIB per cápita, confiabilidad en el gobierno de turno, esperanza de vida, etc.\
+La base de datos que contiene nuestro informe presenta información de, aproximadamente, 160 países en donde se detalla mediante las siguientes variables: PIB per cápita, esperanza de vida, apoyo social, libertad, generosidad y confianza en el gobierno influyen en la escala de felicidad que se encuentra la población de dicho país.
+
+de distintos países durante los años 2019 y 2020 sobre el nivel de felicidad y libertad alcanzada por la población. El primer factor mencionado puede verse influenciado y/o correlacionado por las distintas variables que presenta la data como PIB per cápita, confiabilidad en el gobierno de turno, esperanza de vida, etc.\
 Para el segundo factor, el considerarse una persona libre puede garantizar y o poseer beneficios que pueden variar según cada persona y cultura, por lo que, a partir de los dos factores anteriores, nos surguieron las siguientes preguntas que esperamos responder a lo largo del proyecto:
 
 1.  ¿Cómo se refleja en el mundo la libertad económica de región geográfica del mundo?
