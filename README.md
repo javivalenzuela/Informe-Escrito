@@ -1,12 +1,12 @@
 # :mag_right: Percepción de la felicidad en el mundo :mag_right:
 
-En este trabajo, analizaremos los datos que influyen en la percepción de felicidad del ser humano según la encuesta realizada por "*World Happiness Report"*. Luego compararemos los estilos de vida según las distintas percepciones de felicidad utilizando los criterios de la data obtenida del informe "*Human Freedom Index"* entre los años 2019 y 2020.
+En este trabajo, analizaremos los datos que influyen en la percepción de felicidad del ser humano según la encuesta realizada por "*World Happiness Report"*. Luego compararemos los estilos de vida según las distintas percepciones de felicidad utilizando los criterios de la data obtenida del informe "*Human Freedom Index"* entre los años 2019-2021.
 
 A continuación se presentarán los cuatro repositorios existentes que utilizaremos en este trabajo:
 
 ## Data set:file_folder::
 
-La data set de este trabajo se encuentra en este repositorio, y está conformada por 2 archivos .csv y 4 archivos .xls. Estos contienen información entre los años 2019-2020 sobre los indicadores que tratan de explicar las distintas percepciones de felicidad y libertad por el ser humano en distintas zonas geográficas.
+La data set de este trabajo se encuentra en este repositorio, y está conformada por 1 archivo .csv y 4 archivos .xls. Estos contienen información entre los años 2019-2021 sobre los indicadores que tratan de explicar las distintas percepciones de felicidad y libertad por el ser humano en distintas zonas geográficas.
 
 Los datos fueron extraídos de las siguientes páginas web :copyright::
 
