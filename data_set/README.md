@@ -16,4 +16,4 @@
 
 -   [Indicador de libertad 2020](https://www.cato.org/human-freedom-index/2020): Este data set contiene variables que de manera similar al caso anterior, están en una escala pero del 0 al 10.
 
--   [Indicador de Mortalidad](<https://worldhappiness.report/ed/2021/>): Esta data set está medida en diversas escalas según el tipo de variable.
+-   [Indicador de Mortalidad](https://worldhappiness.report/ed/2021/): Esta data set está medida en diversas escalas según el tipo de variable.
