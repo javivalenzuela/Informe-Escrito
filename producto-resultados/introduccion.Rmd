@@ -2,7 +2,11 @@
 output: html_document
 ---
 
-# Introducción
+# ¿Qué tan feliz es el ser humano?
+
+El concepto de la felicidad debido a la pandemia ha tomado una gran importancia, ya que conceptos como salud mental y bienestar han ido tomando cada vez más fuerza. (BUSCAR FUENTE).
+
+Hemos podido apreciar que la pandemia ha afectado a todos sin casi ninguna excepción, pero siempre hay más afectados.
 
 Hoy en día el concepto de felicidad ha tomado una gran importancia, ya que alcanzar el estado de satisfacción con la vida se ha convertido en una meta que la mayoría de la población quiere alcanzar (FUENTE UNIVERSIDADVIU). Por el motivo anterior, medir este concepto se ha convertido en algo de gran importancia, ya que así se logra entender el cómo se puede fomentar de manera efectiva la satisfacción con la vida de cada individuo.
 
