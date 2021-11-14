@@ -1,29 +1,33 @@
 ---
+title: Introducción
+
+subtitle: ¿Cuál es el secreto de la felicidad?
+
+author: Javiera Valenzuela Soto
 output: html_document
 ---
 
-# ¿Qué tan feliz es el ser humano?
+En este útlimo tiempo, el concepto de felicidad y bienestar de las personas se ha ido extendiendo a diversos campos, en donde está sonando fuerte en materias como economía y políticas públicas.
 
-El concepto de la felicidad debido a la pandemia ha tomado una gran importancia, ya que conceptos como salud mental y bienestar han ido tomando cada vez más fuerza. (BUSCAR FUENTE).
+Sin embargo, no es sencillo definir el concepto de bienestar o felicidad, los cuales tienden a estar relacionados.\
+Científicamente, se suele entender el concepto de Felicidad como "la experiencia de bienestar que se asocia a una profunda satisfacción y sensación de propósito vital" (CLARÍN, 06/12/2017). Con lo anterior en mente, podríamos utilizar esta terminología como una unidad de medida para cuantificar el grado de satisfacción de cada persona con su estilo de vida. [La Vanguardia](<https://www.lavanguardia.com/vivo/psicologia/20171206/433415391204/claves-felicidad-ciencia.html>).
 
-Hemos podido apreciar que la pandemia ha afectado a todos sin casi ninguna excepción, pero siempre hay más afectados.
+Desde el año 2012, las naciones unidad lanzaron un programa llamada "Informe de Felicidad Mundial (World Happiness Report), en donde mediante la encuesta Gallup comenzó a evaluar el bienestar de casi todos los países bajo los siguientes factores que pueden influir en los niveles de felicidad en el mundo: apoyo social, dinero, salud, libertad, confianza y bondad. [El mundo](<https://www.elmundo.es/vida-sana/bienestar/2018/01/29/5a6b3844468aebfb388b4601.html>).
 
-Hoy en día el concepto de felicidad ha tomado una gran importancia, ya que alcanzar el estado de satisfacción con la vida se ha convertido en una meta que la mayoría de la población quiere alcanzar (FUENTE UNIVERSIDADVIU). Por el motivo anterior, medir este concepto se ha convertido en algo de gran importancia, ya que así se logra entender el cómo se puede fomentar de manera efectiva la satisfacción con la vida de cada individuo.
+Debido a esta encuesta y sus resultados, comienzan a surgir interrogantes como: ¿Cuáles son los países que se consideran más felices?, ¿Qué tienen en común las personas más felices del mundo? y ¿En qué se puede trabajar y mejorar para ser más felices?
 
-Para lograr lo anterior, se deben reconocer las aristas que influyen en el crecimiento de la felicidad y bienestar en los seres humanos, en donde variables como el crecimiento económico, salud y políticas de gobierno, toman el principal foco de atención. Para esto se analizarán encuestas hechas por "World Happiness Report" que tuvieron en cuenta las variables anteriormente mencionadas y así hacer una proyección con los datos recolectados entre los años 2017-2020 para ver si efectivamente la fluctuación de los factores anteriormente mencionados influyen en la felicidad percibida por la sociedad.
+Por lo anterior, el siguiente informe tiene como objetivo entender cuáles son las variables que más pueden influir en la felicidad y bienestar percibido por individuos de distintos países, qué es lo que poseen en común los países más felices y en qué suelen diferenciarse con los menos felices. Además, intentaremos analizar cómo la pandemia ha incidido en los niveles de felicidad percibidos por la población, y así ver si encontramos un patrón entre la incidencia del COVID-19 y el nivel de felicidad de los países en el mundo.
 
-El siguiente informe tiene como objetivo mostrar cómo ciertas variables pueden explicar la felicidad percibida en los diversos países, para así lograr responder las siguientes preguntas:
+Este trabajo contará con 4 repositorios, en donde mediante gráficos y modelos de regresión intentaremos responder las siguientes preguntas:
 
-1- ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
+-   ¿Cuáles son los países con el mayor y menor índice de felicidad en el mundo?
 
-2- ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
+-   ¿Qué similitudes y diferencias comparten esos países?
 
-3- ¿Los países más afectados por el COVID fueron los que tenían habitantes más felices?
+-   ¿Cómo ha incidido el COVID-19 mediante la mortalidad de esos países?
 
-4- ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
+-   En los países más felices, ¿Existe una mayor igualdad y libertad de género?
 
-5- ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
+-   ¿El dinero realmente hace la felicidad o influyen otras variables?
 
-6- ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?
-
-Para lograr lo anterior, se describirá la base de datos y sus variables, en donde comenzaremos describiendo los ambientes para la felicidad para luego ir viendo cómo fluctúa en los distintos países y así comparar entre distintos continentes y/o culturas. Se prestará atención a la fluctuación de nivel de población y crecimiento económico de cada país mediante mapas descriptivos, para luego finalizar en cómo los datos obtenidos lograron influenciar en los efectos del COVID en cada país, según la tasa de muerte de estos. Para terminar, se entregarán las conclusiones y recomendaciones que cada país debiese tener en cuenta para aumentar el nivel de felicidad de su población y cómo estos han ido progresando a lo largo de los años.
+Por último, se intentará responder la pregunta quen planteamos más arriba; ¿Cuál es el secreto de la felicidad? Es decir, ¿En qué podemos trabajar y así aumentar la percepción de felicidad en las personas? Para ello, en el repositorio correspondiente al data set definiremos las variables y sus índicadores de medida, para luego comenzar un manejo de datos que se explicitará en los repositorios "productos-resultados" y "gráficos", y así concluir con ideas para trabajar en cómo mejorar la felicidad de las personas en el mundo.
