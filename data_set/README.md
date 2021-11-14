@@ -1,6 +1,4 @@
-# Datos
-
-## *Fuente de datos*:mag_right:
+## *Fuente de datos:mag_right:*
 
 1- <https://worldhappiness.report/ed/2021/#appendices-and-data>
 
@@ -8,14 +6,14 @@
 
 3- <https://www.gapminder.org/>
 
-### Definiendo las variables a utilizar:green_book: :
+### *Definiendo las variables a utilizar*:green_book: :
 
-### Índice de medida:abacus: :
+### Índices de medida:abacus: :
 
-Para estos datos, las puntuaciones que se obtuvieron con los factore anteriores en mente, son las propias evaluaciones de los individuos utilizando el indicador de medida de la escalera de Cantril, la cual hace imaginarse a los entrevistados estar en una escalera enumerada desde el 0 al 10, en donde la parte superior representa la mejor vida posible, mientras que la inferior representa lo opuesto para ellos.
+-   [Indicador Económico-2019](https://www.fraserinstitute.org/economic-freedom/dataset?geozone=world&year=2019&page=dataset&min-year=2&max-year=0&filter=0&sort-field=sizeOfGovernment&sort-reversed=1): Este data set posee las puntuaciones sobre diversas variables que se pueden relacionar con la libertad económica de cada país en la escala del 1 al 10.
 
-### Otras carpetas:pushpin: :
+-   [Evolución de felicidad](https://worldhappiness.report/ed/2020/#appendices-and-data) [y Ranking de la felicidad 2021](https://worldhappiness.report/ed/2021/): Poseen están medidas en 3 escalas diferentes, según la variable y estas son: escala de 1 al 10, escala de 0 y 1 y escala etaria para la esperanza de vida.
 
-En las carpetas: -"*panel-de-datos_fuente-extra*" -"*data-mortalidad_fuente-extra*" -"*rank-happ-2020-vs-otros-años_fuente-extra*" Los datos fueron extraídos del segundo link mencionado en la carpeta *producto-resultados*, específicamente en *sitios web/fuentes*.
+-   [Indicador de libertad 2020](https://www.cato.org/human-freedom-index/2020): Este data set contiene variables que de manera similar al caso anterior, están en una escala pero del 0 al 10.
 
-\*Las últimas 3 datas, fueron agregadas el 08/10, ya que serán utilizadas para responder las preguntas que se crearon por la actividad 8.4.
+-   [Indicador de Mortalidad](<https://worldhappiness.report/ed/2021/>): Esta data set está medida en diversas escalas según el tipo de variable.
