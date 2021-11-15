@@ -63,3 +63,19 @@ ranking_felicidad_2021 %>%
        caption = "Elaboración propia a partir de datos de worldhappiness.report")
 
 ggsave("figuras/funciones_para_graficos.png", height = 5, width = 8)
+
+
+ggplot(ranking_felicidad_2021) +
+ aes(x = `Logged GDP per capita`, y = `Ladder score`, colour = Continente) +
+ geom_point(shape = "circle small", size = 1.5) +
+ scale_color_hue(direction = 1) +
+ labs(x = "PIB per cápita", 
+ y = "Escala de Felicidad", caption = "Relación PIB per cápita vs Escala de Felcidad por Continente") +
+ ggthemes::theme_stata() +
+ theme(legend.position = "left", plot.caption = element_text(size = 23L, 
+ hjust = 0.5)) +
+ facet_wrap(vars(Continente), ncol = 3L) +
+ ylim(0, 10)
+
+
+ggsave("figuras/funciones_para_graficos_2.png", height = 5, width = 8)
