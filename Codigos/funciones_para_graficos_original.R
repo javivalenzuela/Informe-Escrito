@@ -28,7 +28,8 @@ mortalidad_2020 <- read_excel("data_set/OPCION 2/MortalityDataWHR2021C2.xlsx",
 
 ranking_felicidad_2021 <- read_excel("data_set/OPCION 2/ranking_felicidad_2021.xls", 
                                      na = "NA")
-##################################3
+
+# GRAFICOS PREGUNTA 1 -----------------------------------------------------
 grafico_1= ranking_felicidad_2021 %>% 
   select(`Ladder score`, `Country name`)
 
@@ -103,3 +104,8 @@ grafico_felices= ggplot()+
        subtitle = "Se muestran los 5 países con mejores puntajes según la encuesta realizada por World Happiness Report.")
 grafico_felices
 ggsave("figuras/grafico_paises_felices.png", height = 5, width = 8)
+
+
+
+
+
