@@ -1,4 +1,4 @@
-## :memo: Gráficos y Tablas :chart_with_upwards_trend::
+## :memo: Gráficos y Tablas :chart_with_upwards_trend:
 
 A continuación se presentarán los gráficos y tablas que se utilizarán a lo largo de este informe para intentar explicar los factores que podrían influir en el bienestar y felicidad del ser humano en el mundo.
 
