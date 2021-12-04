@@ -1,21 +1,131 @@
 ---
-title: "Gráficos"
+title: "Gráficos y tablas"
 author: "Javiera Valenzuela"
 date: "08-11-2021"
-output: html_document
+output:
+  rmdformats::robobook:
+    highlight: kate
+    fig_height: 5
+    fig_caption: TRUE
+    lightbox: TRUE
+    thumbnails: FALSE
+    mathjax: "rmdformats"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Gráficos:
+A continuación se presentarán los gráficos y tablas que se utilizarán a lo largo de este informe para intentar explicar los factores que podrían influir en el bienestar y felicidad del ser humano en el mundo.
 
-A continuación se presentarán los gráficos que se harán y utilizarán para el presente proyecto.
+## Gráfico 1
 
-### Gráfico 1: PIB per cápita v/s Escala de Felcidad
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_indicadores_mundiales.png"))
+```
+
+## Gráfico 2
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/relacion_pib_felicidad.png"))
+```
+
+## Gráfico 3
 
 ```{r, echo=FALSE}
 
-knitr::include_graphics(here::here("figuras/funciones_para_graficos.png"))
+knitr::include_graphics(here::here("figuras/relacion_pib_felicidad_SEPARADO.png"))
+```
+
+## Gráfico 4
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_personal_y_felicidad.png"))
+```
+
+## Gráfico 5
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_personal_y_felicidad_SEPARADO.png"))
+```
+
+## Gráfico 6
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_indicadores_mundiales.png"))
+```
+
+## Gráfico 7
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/muertes_2019_vs_2020_continente.png"))
+```
+
+## Gráfico 8
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/muertes_COVID_continente.png"))
+```
+
+## Gráfico 9
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_paises_infelices.png"))
+```
+
+## Gráfico 10
+
+```{r, echo = FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_paises_felices.png"))
+```
+
+## Gráfico 11
+
+```{r, echo = FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_incidencia_por_pais.png"))
+```
+
+## Gráfico 12
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_poblacion_2019_2020_paises.png"))
+```
+
+## Gráfico 13
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/decesos_COVID_por_paises.png"))
+```
+
+## Tabla 1
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_caracteristica.png"))
+```
+
+## Tabla 2
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_indices.png"))
+```
+
+## Tabla 3
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/reporte_felicidad.png"))
 ```
