@@ -1,11 +1,15 @@
 ---
-title: Introducción
-
-subtitle: "¿Cuál es el secreto de la felicidad?"
-
-author: "Javiera Valenzuela Soto"
-
-output: html_document
+title: "Introducción"
+author: "Javiera Valenzuela"
+date: "08-11-2021"
+output:
+  rmdformats::robobook:
+    highlight: kate
+    fig_height: 5
+    fig_caption: TRUE
+    lightbox: TRUE
+    thumbnails: FALSE
+    mathjax: "rmdformats"
 ---
 
 En este útlimo tiempo, el concepto de felicidad y bienestar ha comenzado a tomar gran relevancia en la sociedad al punto que investigaciones sobre los factores que influyen a estos conceptos se han ido extendiendo a diversos campos de estudio como economía, políticas de gobierno, etc.
