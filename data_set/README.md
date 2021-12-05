@@ -1,16 +1,4 @@
----
-title: "Data-set 📁"
-author: "Javiera Valenzuela"
-date: "08-11-2021"
-output:
-  rmdformats::robobook:
-    highlight: kate
-    fig_height: 5
-    fig_caption: TRUE
-    lightbox: TRUE
-    thumbnails: FALSE
-    mathjax: "rmdformats"
----
+# Data-set :file_folder:
 
 En esta carpeta se contendrán los datos, fuentes y referencias que se utilizaron para realizar este trabajo.
 
