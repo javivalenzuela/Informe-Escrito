@@ -4,7 +4,7 @@ En este repositorio procederemos a analizar las distintas variables e índices o
 
 Los resultados obtenidos fueron sobre 162 países en la encuesta realizada por *"The Human Freedom Index 2020"*, mientras que en la encuesta realizada por *"The World Happiness Report"* fueron acerca de 149 países en el año 2020.
 
-## Estructura del repositorio:
+## Estructura del repositorio: :world_map:
 
 A continuación se presentarán los cuatro repositorios existentes que utilizaremos en este trabajo:
 

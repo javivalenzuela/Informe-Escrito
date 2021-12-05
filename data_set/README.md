@@ -2,11 +2,11 @@
 
 En esta carpeta se contendrán los datos, fuentes y referencias que se utilizaron para realizar este trabajo.
 
-## Datos utilizados
+## Datos utilizados:floppy_disk::
 
 La data set utilizada para este repositorio se extrajo de dos distintas encuestas, las cuales fueron *"The Human Freedom Index 2020"* y *"The World Happiness Report"*, los cuales encuestaron a 162 y 149 países, respectivamente. Los resultados que se presentaron por dichas encuestas y que utilizamos para este repositorio, son de los años 2020-2021.
 
-## Fuente de datos
+## Fuente de datos :paperclip::
 
 La base de datos utilizada contiene 3 archivos .xlsx los cuales fueron obtenidos de las siguientes páginas web:
 
@@ -16,7 +16,7 @@ La base de datos utilizada contiene 3 archivos .xlsx los cuales fueron obtenidos
 
 A continuación se abordarán los indicadores y unidades de medida utilizados en profundidad en ambas encuestas.
 
-## Indicadores y variables utilizadas:
+## Indicadores y variables utilizadas :loud_sound: :
 
 #### The Human Freedom Index (2020):
 
