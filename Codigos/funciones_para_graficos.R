@@ -17,11 +17,6 @@ library(flextable)
 library(RColorBrewer)
 library(scales)
 ## Carga de datos ##----
-economia_2019= read_delim("data_set/OPCION 2/economicdata2019-2019.csv", 
-                          delim = ";", escape_double = FALSE, na = "NA", trim_ws = TRUE)
-
-evolucion_felicidad <- read_excel("data_set/OPCION 2/evolucion_felicidad.xls", na = "NA")
-
 indice_de_libertad_2021 <- read_excel("data_set/OPCION 2/human-freedom-index-2020 (1).xlsx", 
                                       na = "NA")
 mortalidad_2020 <- read_excel("data_set/OPCION 2/MortalityDataWHR2021C2.xlsx", 
