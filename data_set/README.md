@@ -2,11 +2,11 @@
 
 En esta carpeta se contendrán los datos, fuentes y referencias que se utilizaron para realizar este trabajo.
 
-Datos utilizados:floppy_disk::
+### Datos utilizados:floppy_disk::
 
 La data set utilizada para este repositorio se extrajo de dos distintas encuestas, las cuales fueron "The Human Freedom Index 2020" y "The World Happiness Report", los cuales encuestaron a 162 y 149 países, respectivamente. Los resultados que se presentaron por dichas encuestas y que utilizamos para este repositorio, son de los años 2020-2021.
 
-Fuente de datos :paperclip::
+### Fuente de datos :paperclip::
 
 La base de datos utilizada contiene 3 archivos .xlsx los cuales fueron obtenidos de las siguientes páginas web:
 
@@ -18,9 +18,9 @@ La base de datos utilizada contiene 3 archivos .xlsx los cuales fueron obtenidos
 
 A continuación se abordarán los indicadores y unidades de medida utilizados en profundidad en ambas encuestas.
 
-Indicadores y variables utilizadas :loud_sound: :
+### Indicadores y variables utilizadas :loud_sound: :
 
-The Human Freedom Index (2020):
+#### The Human Freedom Index (2020):
 
 Esta encuesta fue hecha a partir de 76 indicadores en diversas áreas, en donde se debía responder en una escala de 0 a 10, en donde 10 representa más libertad para el individuo.
 
@@ -28,62 +28,51 @@ Con las respuestas en estas diversas áreas se lograron construir 3 diferentes �
 
 Los índices y áreas en las que nos concentramos en este repositorio fueron:
 
-Áreas:
+-   Áreas:
 
-Estado de derecho.
-
-Seguridad y Protecciín de las mujeres.
-
-Desplazamiento femenino. (∗)
-
-Libertad de religión.
-
-Expresión e Información.
-
-Relaciones entre el mismo sexo.
-
-Libertad de prensa.
-
-Confianza en la policía.
-
-Interferencia militar en estado de derecho y política.
-
-Acceso al Dinero Sólido (∗∗)
+1.  Estado de derecho.
+2.  Seguridad y Protecciín de las mujeres.
+3.  Desplazamiento femenino. (∗)
+4.  Libertad de religión.
+5.  Expresión e Información.
+6.  Relaciones entre el mismo sexo.
+7.  Libertad de prensa.
+8.  Confianza en la policía.
+9.  Interferencia militar en estado de derecho y política.
+10. Acceso al Dinero Sólido (∗∗)
 
 ---
 (∗) Entiéndase al Desplazamiento femenino como el poder transitar libremente por la calle. 
 (∗∗) Entiéndase Dinero Sólido como estabilidad del dinero a través del tiempo. 
 ---
 
-Índices (∗):
+-   Índices (∗):
 
-Libertad personal.
-
-Libertad humana.
-
-Libertad económica.
+1.  Libertad personal.
+2.  Libertad humana.
+3.  Libertad económica.
 
 ---
 (∗) De estos 3 índices se utilizó tanto el puntaje como el ranking, en donde este último fue realizado para 162 países.
 ---
 
-The World Happiness Report (2020 y 2021)
+#### The World Happiness Report (2020 y 2021)
 
 Esta encuesta fue realizada en 149 países en donde, mediante encuestas Gallup, las cuales, a través de la variación de los puntajes obtenidos en 6 distintas variables en distintos países en el mundo, intentan explicar los cambios en la percepción de felicidad de los habitantes en el tiempo.
 
 Estas 6 variables que mencionamos anteriormente son:
 
-PIB per cápita. (∗)
+-   PIB per cápita. (∗)
 
-Apoyo/Soporte social.
+-   Apoyo/Soporte social.
 
-Esperanza de vida. (∗∗)
+-   Esperanza de vida. (∗∗)
 
-Libertad.
+-   Libertad.
 
-Generosidad.
+-   Generosidad.
 
-Percepción de corrupción.
+-   Percepción de corrupción.
 
 ---
 (∗) PIB per cápita en la base de datos está entregado como el "PIB per cápita registrado en miles de dólares".
@@ -96,19 +85,19 @@ Las 6 variables intentan explicar la variación de felicidad en los distintos pa
 
 En nuestro informe, aparte de analizar los datos obtenidos de las 6 variables en el año 2020, también analizaremos qué tanto incide cada una de ellas en el puntaje de la Escalera de Felicidad de Cantrill que se encuentra la persona, y que a continuación procederemos a mencionar:
 
-Explicado por PIB per cápita registrado en miles de dólares.
+-   Explicado por PIB per cápita registrado en miles de dólares.
 
-Explicado por Apoyo/Soporte social.
+-   Explicado por Apoyo/Soporte social.
 
-Explicado por Esperanza de vida.
+-   Explicado por Esperanza de vida.
 
-Explicado por Libertad.
+-   Explicado por Libertad.
 
-Explicado por Generosidad.
+-   Explicado por Generosidad.
 
-Explicado por Percepción de corrupción.
+-   Explicado por Percepción de corrupción.
 
-Dystopia + residuos (∗)
+-   Dystopia + residuos (∗)
 
 ---
 (∗)La variable Distopía tiene el propósito de actuar como un punto de referencia en donde todos los países puedan ser comparados, en donde las peores puntuaciones de las 6 variables caracterizan la distopía. Por otro lado, los residuos difieren de cada país, reflejando la medida en que las 6 variables explican en exceso o déficit las evaluaciones de vida obtenidas en las encuestas. Estas dos variables se suelen sumar en conjunto y conforman las evaluaciones de vida de cada país para así obtener siempre valores positivos.
@@ -116,15 +105,15 @@ Dystopia + residuos (∗)
 
 Por último, esta misma organización debido a la pandemia por COVID-19, en el año 2021 realizó un reporte con la mortalidad provocada por este virus. En nuestro repositorio, para estudiar las consecuencias del evento anteriormente mencionado, nos centramos en analizar las siguientes variables:
 
-Población en el año 2019.
+-   Población en el año 2019.
 
-Población en el año 2020.
+-   Población en el año 2020.
 
-Cantidad de muertes por COVID-19 cada 100.000 habitantes en el año 2020.
+-   Cantidad de muertes por COVID-19 cada 100.000 habitantes en el año 2020.
 
-Edad promedio.
+-   Edad promedio.
 
-Índice de Gini según Ingresos. (∗)
+-   Índice de Gini según Ingresos. (∗)
 
 ---
 (∗) El Índice de Gini es una medida de la distribución de los ingresos en una población. Un índice de Gini más alto, indica mayor desigualdad.
