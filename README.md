@@ -1,29 +1,39 @@
-# :mag_right: Percepción de la felicidad en el mundo :mag_right:
+---
+title: "🔎 ¿Cómo es percibida la felicidad y bienestar en el mundo? 🔎"
+author: "Javiera Valenzuela"
+date: "08-11-2021"
+output:
+  rmdformats::robobook:
+    highlight: kate
+    fig_height: 5
+    fig_caption: TRUE
+    lightbox: TRUE
+    thumbnails: FALSE
+    config.toml: 
+          enableEmoji: TRUE
+    blogdown::html_page:      md_extensions: +emoji
+    mathjax: "rmdformats"
+---
 
-En este trabajo, analizaremos los datos que influyen en la percepción de felicidad del ser humano según la encuesta realizada por "*World Happiness Report"*. Luego compararemos los estilos de vida según las distintas percepciones de felicidad utilizando los criterios de la data obtenida del informe "*Human Freedom Index"* entre los años 2019-2021.
+En este repositorio procederemos a analizar las distintas variables e índices obtenidos de dos encuestas que fueron realizadas el año 2020 y 2021 para intentar explicar los determinantes que podrían influir en el bienestar y felicidad de las personas alrededor del mundo.
+
+Los resultados obtenidos fueron sobre 162 países en la encuesta realizada por *"The Human Freedom Index 2020"*, mientras que en la encuesta realizada por *"The World Happiness Report"* fueron acerca de 149 países en el año 2020.
+
+## Estructura del repositorio:
 
 A continuación se presentarán los cuatro repositorios existentes que utilizaremos en este trabajo:
 
-## Data set:file_folder::
+## Data set :file_folder::
 
-La data set de este trabajo se encuentra en este repositorio, y está conformada por 1 archivo .csv y 4 archivos .xls. Estos contienen información entre los años 2019-2021 sobre los indicadores que tratan de explicar las distintas percepciones de felicidad y libertad por el ser humano en distintas zonas geográficas.
+En esta carpeta se contendrán los datos, fuentes y referencias que se utilizaron para realizar este trabajo.
 
-Los datos fueron extraídos de las siguientes páginas web :copyright::
+## Codigos :floppy_disk: :
 
--   World Happiness Report: [https://worldhappiness.report/ed/2021](https://worldhappiness.report/ed/2021/#appendices-and-data)
+En esta carpeta se encontrarán todos los códigos que fueron creados y utilizados para analizar y procesar los datos de nuestro informe y así obtener las posteriores conclusiones.
 
--   The Human Freedom Index: <https://www.cato.org/human-freedom-index/2020>
+## [Gráficos:](https://javivalenzuela.github.io/Informe-Escrito/figuras/graficos.html) :bar_chart:
 
--   Gapminder: <https://www.gapminder.org/>
-
-## Codigos:floppy_disk: :
-
-Esta carpeta va a inlcuir los códigos que se utilizarán para analizar y procesar los datos y obtener así conclusiones para nuestro proyecto.
-
-## [Gráficos:](https://javivalenzuela.github.io/Informe-Escrito/figuras/graficos.html):bar_chart:
-
-En esta carpeta se guardarán los gráficos obtenidos de nuestras fuentes de los datos y los futuros gráficos que crearemos para presentar en el proyecto.
-
+En esta carpeta se guardarán los gráficos creados a partir de nuestros datos, permitiendo así que las conclusiones que hayamos obtenido sean más simples de visualizar y analizar.
 ## [Producto-Resultados:](https://javivalenzuela.github.io/Informe-Escrito/producto-resultados/) :white_check_mark:
 
-En esta carpeta se encontrará la subdivisión (o índice) de nuestro proyecto y fuentes de nuestra base de datos, que presentaremos en unas semanas más y así tener una visualización más clara de la forma de nuestro informe.
+En esta carpeta se encontrará la subdivisión y resultados finales de nuestra base de datos que presentaremos en la versión final del informe.
