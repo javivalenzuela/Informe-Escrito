@@ -1,3 +1,5 @@
+# :mag_right: ¿Cómo es percibida la felicidad y bienestar en el mundo? :mag_right:
+
 En este repositorio procederemos a analizar las distintas variables e índices obtenidos de dos encuestas que fueron realizadas el año 2020 y 2021 para intentar explicar los determinantes que podrían influir en el bienestar y felicidad de las personas alrededor del mundo.
 
 Los resultados obtenidos fueron sobre 162 países en la encuesta realizada por *"The Human Freedom Index 2020"*, mientras que en la encuesta realizada por *"The World Happiness Report"* fueron acerca de 149 países en el año 2020.
