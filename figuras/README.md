@@ -2,11 +2,15 @@
 
 A continuación se presentarán los gráficos y tablas que se utilizarán a lo largo de este informe para intentar explicar los factores que podrían influir en el bienestar y felicidad del ser humano en el mundo.
 
-### Gráfico 1 :chart_with_upwards_trend::
+### Gráfico 1 :chart_with_upwards_trend:: 
+
+Gráfico que representa la relación entre el PIB per cápita y el puntaje obtenido bajo la unidad de medida de la Escalera de Cantrill de cada país separado por continente.
 
 ![](relacion_pib_felicidad.png)
 
-### Gráfico 2 :chart_with_upwards_trend::
+### Gráfico 2 :chart_with_upwards_trend:: 
+
+Gráfico que representa la relación entre el PIB per cápita y el puntaje obtenido bajo la unidad de medida de la Escalera de Cantrill de cada país separado, tanto por colores como por gráficos, por continente.
 
 ![](relacion_pib_felicidad_SEPARADO.png)
 
