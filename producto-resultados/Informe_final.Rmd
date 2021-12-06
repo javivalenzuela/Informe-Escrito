@@ -162,20 +162,106 @@ Una vez hecho lo anterior, procederemos a escoger los 5 países con mayor y meno
 
 ## Resultados de nuestros datos:
 
-Ahora que ya hicimos la presentación y explicación de nuestros datos y sus variables para entender qué factores pueden incidir en la percepción de felicidad de las personas, podemos visualizar los siguientes resultados que nos ayudarán a responder nuestras [preguntas iniciales]():
+Ahora que ya hicimos la presentación y explicación de nuestros datos y sus variables para entender qué factores pueden incidir en la percepción de felicidad de las personas, podemos visualizar los siguientes resultados que nos ayudarán a responder nuestras [preguntas iniciales](<https://javivalenzuela.github.io/Informe-Escrito/producto-resultados/00.preguntas_iniciales.html>):
 
-### Relación 
+### ¿Existe una relación entre la felicidad y el dinero?
+
+Se dice que el dinero no hace la felicidad, pero sí puede influir mucho en ella, por lo que para visualizar si esta variable realmente puede incidir en el puntaje de felicidad obtenido se realizó un gráfico de punto para comparar ambos factores.
 
 ```{r, echo= FALSE}
 
 knitr::include_graphics(here::here("figuras/relacion_pib_felicidad.png"))
 ```
 
-Mostrar que efectivamente europa es la región más feliz y poder mostrar qué noticias se poseen sobre esos países como sueldo, educación y gobierno.
+Podemos apreciar que efectivamente existe una relación positiva entre ambas variables, pero, ¿será este el único factor que incide positivamente en el puntaje? Para responder lo anterior, utilizaremos el siguiente gráfico que comparar otro factor con el PIB per cápita.
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_personal_y_felicidad.png"))
+```
+
+Observamos en este gráfico que, al igual que en el anterior, también se genera una relación positiva entre el índice de libertad y el puntaje de felicidad obtenido por los países. Con esta información podemos intuir dos cosas: que exista más de un factor que incida en la felicidad de las personas y/o que estos factores estén relacionados entre sí indirecta o directamente[^1]
+
+[^1]: Los gráficos anteriores pueden apreciarse por continente en el siguiente [anexo de gráficos](https://javivalenzuela.github.io/Informe-Escrito/figuras/graficos.html).
+
+Entonces, para poder ver cuáles son efectivamente las variables que poseen un elevado puntaje de felicidad de las personas, utilizaremos el siguiente gráfico.
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_indicadores_mundiales.png"))
+```
+
+Con el gráfico anterior podemos decir que, a pesar que el dinero si se puede relacionarse positivamente con el puntaje de felicidad obtenido como vimos en el primer gráfico, no es la única.
+
+### ¿Qué países son más y menos felices?
+
+Ahora que ya visualizamos las posibles variables que pueden incidir en la felicidad percibidas por las personas, hagamos un análisis escogiendo los 5 países más y menos felices según los puntajes obtenidos en la Escalera de Cantrill:
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_paises_infelices.png"))
+```
+
+```{r, echo = FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_paises_felices.png"))
+```
+
+Con estos gráficos, podemos ver que los países más felices según su puntaje de felicidad son: Finlandia, Dinamarca, Suiza, Islandia y Países Bajos. Por otro lado, los países con menor puntaje son: Zimbabwe, Rwanda, Botswana, Lesotho y Malawi[^2]
+
+[^2]: Según los resultados publicados por *World Happiness Report* el país con menor puntaje de felicidad es Afganistan, pero para este informe, no se tenía la data de este país de manera completa, por lo que se optó en tomar el segundo país más infeliz como el primero y ahí escoger los cuatro restantes.
+
+### ¿En qué se asemejan y diferencian estos países?
+
+Utilizando las siguientes tablas para resumir la información recopilada, tenemos:
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_caracteristica.png"))
+```
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/libertad_indices.png"))
+```
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/reporte_felicidad.png"))
+```
+
+De las siguientes tablas, podemos apreciar que los países con mayor felicidad poseen mayores puntajes en las 6 variables, siendo más notorio en las variables como PIB per cápita y soporte social. Sin embargo, podemos apreciar que existen algunas incongruencias, como el caso del país de Botswana, el cual es uno de los más infelices, pero es quien posee uno de los PIB per cápita más altos o, por otro lado, el caso del país de Rwanda, que también posee un bajo nivel de felicidad, pero un alto puntaje en la capacidad de tomar decisiones.
+
+Como mencionamos anteriormente, esto se debe a que existen diversos factores que pueden influir en la percepción de felicidad, y para corrobar lo anterior, mostraremos en el siguiente gráfico cuál es la incidencia de cada determinante en el puntaje obtenido en cada uno de los países.
+
+```{r, echo = FALSE}
+
+knitr::include_graphics(here::here("figuras/grafico_incidencia_por_pais.png"))
+```
+
+En el gráfico anterior, podemos apreciar que los factores como esperanza de vida, libertad para tomar decisiones y apoyo social, son tan fundamentales como el factor del PIB per cápita registrado. Sin embargo, no podemos dejar de notar que para tener una alta esperanza de vida es tan fundamental tener un buen apoyo social como un buen apoyo económico, lo cual nos revela que la mayorpia de los factores están correlacionados indirectamente de alguna manera y es lo que se debe tener en cuenta a la hora de pensar en políticas de gobierno y/o toma de decisiones en el día a día.
+
+### COVID-19
+
+Se puede pensar que los países con mayor índice de felicidad pudieron haber sido afectados de una manera menor que los que poseen un menor puntaje. A continuación, analizaremos los siguientes gráficos para hacer un análisis de lo planteado.
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/decesos_COVID_por_paises.png"))
+```
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(here::here("figuras/muertes_COVID_continente.png"))
+```
+
+Podemos notar que los países y continentes que poseían un mayor índice de felicidad, también poseen un alto índices de decesos por COVID-19. Esto se puede deber a que, a pesar que indicadores como esperanza de vida, apoyo social, PIB, y generosidad sean altos en estas regiones, estos países suelen tener un alto nivel de globalización y conexión entre otros, ocasionando que la propaganción y mortalidad del virus sean mayores que en los otros países.
 
 ## Conclusiones:
 
-Que se puede hacer para mejorar la felicidad: No todo es dinero.
+Podemos concluir con los datos presentados en este informe, que para tomar medidas y decisiones que fomenten y mantengan estables las percepciones de felicidad en el mundo, no solo se deben tener en cuenta los factores por separados, sino que deben ser analizados como todo un conjunto, ya que estan relacionados entre ellos.
+
+Además, se puede seguir en ejemplo a los países nórdicos, quienes son los que han liderado estos ranking por 4 años consecutivos, por lo que implementar reformas similares a las de ellos, sería una buena forma de empezar a trabajar en mejorar la percepción de felicidad de las personas .
 
 ## Referencias:
 
