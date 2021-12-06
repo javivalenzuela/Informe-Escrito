@@ -8,11 +8,17 @@ A continuación se encuentra la introducción a nuestro informe, presentando el 
 
 ### Preguntas iniciales::bulb:
 
+En esta carpeta se encuentran las preguntas iniciales que intentaremos responder mediante el análisis y procesamiento de datos a lo largo de nuestro informe.
+
 ## Desarrollo:
 
 ## [Gráficos:](https://javivalenzuela.github.io/Informe-Escrito/producto-resultados/Graficos-Activadad-11.html) :bar_chart:
 
 ## Conclusiones:
+
+## Informe Final:
+
+Aaaaaaaaaaaaaaaaaaa
 
 ## Sitios web/Fuentes: :link:
 

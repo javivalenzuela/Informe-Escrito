@@ -1,0 +1,182 @@
+---
+title: "¿Cuál es el secreto de la felicidad alrededor del mundo?"
+author: "Javiera Valenzuela"
+date: "08-11-2021"
+output:
+  rmdformats::robobook:
+    highlight: kate
+    fig_height: 5
+    fig_caption: TRUE
+    lightbox: TRUE
+    thumbnails: FALSE
+    mathjax: "rmdformats"
+---
+
+## Resumen
+
+¿Qué hace que la percepción de felicidad de los habitantes varíe tanto en cada país? En este informe a través de los datos recopilados de las encuestas publicadas por *"World Happiness Report"* y *"The Human Freedom Index"* buscaremos cuáles son los factores que más se repiten e influyen en la percepción de felicidad en los habitantes mediante un análisis estadístico sobre la data recolectada sobre 6 indicadores, en donde dividiremos los resultados tanto en continentes como en países que son considerados más y menos felices segun su puntajes en la Escalera de Cantrill.
+
+## Introducción
+
+¿Cuál es el secreto para obtener la felicidad en el mundo?
+
+En este último tiempo, este concepto junto con el bienestar de las personas, ha ido tomando relevancia en la sociedad al punto de centrar investigaciones y experimentos en diversas áreas para así intentar encontrar los factores que pueden influir en estos dos conceptos.
+
+Desde el año 2012, las naciones unidad lanzaron un programa llamado "Informe de Felicidad Mundial (World Happiness Report), en donde mediante la encuesta Gallup comenzaron a evaluar el bienestar de casi todos los países bajo los siguientes factores que, según su investigaciones, pueden influir en los niveles de felicidad en el mundo: apoyo social, dinero, salud, libertad, confianza y bondad (Bonmatí, 2014).
+
+Tanto en los informes publicados por esta encuesta y los publicados por otras entidades, encontramos una similitud entre todos: los países de la zona nórdica son los que lideran los ranking de felicidad y libertad en el mundo por casi más de 4 años consecutivos (Alma, Corazón, Vida, 2021).
+
+¿Qué factores tienen en cuenta los gobiernos de estas regiones para aplicar y realizar políticas públicas que fomentan la felicidad de la población?
+
+En este informe, mediante los datos que fueron recolectados por las encuestas *The Human Freedom Index* y *World Happiness Report*, analizaremos los 6 factores y 3 índices que podrían incidir y explicar los niveles de felicidad percibidos por la población, y así poder entender en qué se debe trabajar para mejorar o mantener estables a través del tiempo la percepción de estos conceptos alrededor del mundo.
+
+Para realizar lo anterior, nuestro informe se dividirá en tres secciones. En primer lugar, explicaremos los datos y metodología que utilizaremos para realizar el análisis estadístico en nuestro informe, teniendo en consideración clarificar los conceptos más técnicos que aparezcan. En la segunda sección, vamos a mostrar los resultados de la sección anterior mediante tablas y gráficos que resuman lo obtenido. Por último, en la tercera parte mostraremos las conclusiones de los resultados obtenidos sobre qué variables inciden en la felicidad y bienestar que perciben las personas en los distintos países en el mundo.
+
+## Descripción de los datos: Escalera de Cantrill.
+
+Los datos que utilizamos en este informe fueron recuperados de las encuestas realizadas por el Instituto Cato, el cual utilizó una escala de 0 a 10, en donde el 10 representa más sensación de libertad en la persona encuestada. Las preguntas de esta encuesta fueron realizadas teniendo en cuenta una cantidad de 76 indicadores en distintas áreas que tratan de explicar la libertad personal y económica de los individuos. Por otro lado, la encuesta realizada por el financiamiento de las Naciones Unidas, utiliza 6 variables que podrían incidir en la felicidad de las personas, las cuales fueron recuperadas de la Encuesta Mundial Gallup, la utiliza la **escalera de Cantrill**.
+
+Esta medición invita a los encuestados a imaginar su posición actual en una escalera con escalones enumerados del 0 al 10, en donde la parte superior representa la mejor vida posible y la parte inferior la peor vida posible para ellos.
+
+Debido a la gran cantidad de variables, el método que utilizamos en este informe fue analizar las 6 variables propuestas por *World Happiness Report* y abordamos las siguientes áreas propuestas por el Instituto Cato:
+
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Variable                                                           | Descripción                                                                                                                     |
++====================================================================+=================================================================================================================================+
+| PIB per cápita.                                                    | Indica el PIB per cápita registrado en miles de dólares en cada país.                                                           |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Apoyo social.                                                      | Puntaje que indica la percepción de apoyo que posee la persona en caso de encontrarse en un problema.                           |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Libertad.                                                          | Puntaje que indica la percepción de libertad que posee el individuo para tomar decisiones en su vida.                           |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Percepción de corrupción.                                          | Puntaje que indica la percepción de corrupción que los individuos sienten del gobierno actual que poseen.                       |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Esperanza de vida.                                                 | Indica la edad promedio de esperanza de vida basada en los datos extraídos de la Organización Mundial de la Salud.              |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Generosidad.                                                       | Puntaje que indica el nivel de caridad de las personas cuando se les pregunta si han donado a caridad medido en PIB per cápita. |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Estado de derecho.                                                 | Puntaje que hace referencia a la capacidad de proteger la libertad de otros.                                                    |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Seguridad y Protección de las mujeres.                             | Puntaje que indica la percepción de seguridad que poseen las mujeres bajo el sistema legal del Estado.                          |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Desplazamiento Femenino.                                           | Puntaje que indica la capicidad de transitar libremente por el territorio como calles, supermercados, etc.                      |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Libertad de religión.                                              | Puntaje que indica la libertad de seguir cualquier religión según su preferencia.                                               |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Expresión e Información.                                           | Puntaje que indica el libre acceso a la información sin intervención de terceros.                                               |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Relaciones entre el mismo sexo.                                    | Puntaje que indica la libertad de tener vínculos familiares y amorosos entre personas del mismo sexo.                           |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Libertad de prensa.                                                | Puntaje que indica la libertad de prensa tanto nacional como extranjera sin intervención de terceros.                           |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Confianza en la policía.                                           | Puntaje que indica la percepción de la capacidad policial de ejercer la ley y orden en el país.                                 |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Interferencia militar en estado de derecho y política.             | Puntaje que indica el nivel de intervención militar en el gobierno democrático.                                                 |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Acceso al Dinero Sólido.                                           | Puntaje que indica la capacidad del individuo de acceder a un dinero estable y este le permita comprar en el mercado.           |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Explicado por PIB per cápita.                                      | Puntuación del PIB per cápita que explica el puntaje de felicidad alcanzado.                                                    |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Explicado por Apoyo social.                                        | Puntuación del Apoyo social que explica el puntaje de felicidad alcanzado.                                                      |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Explicado por Libertad.                                            | Puntuación de la variable Libertad que explica el puntaje de felicidad alcanzado.                                               |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Explicado por Generosidad.                                         | Puntuación de la variable Generosidad que explica el puntaje de felicidad alcanzado.                                            |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Explicado por Esperanza de Vida.                                   | Puntuación de la variable Esperanza de vida que explica el puntaje de felicidad alcanzado.                                      |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Explicado por percepción de corrupción.                            | Puntuación de la variable percepción de corrupción que explica el puntaje de felicidad alcanzado.                               |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Dystopia + residuo.                                                | Puntuación base que posee cada país para evitar puntajes negativos y permitir la comparación entre países                       |
+|                                                                    |                                                                                                                                 |
+| (*World Happiness Report*).                                        |                                                                                                                                 |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Índice de Libertad Personal.                                       | Indica la libertad que posee el individuo en diversas áreas como democracia, ideales, etc.                                      |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Índice de Libertad Económica.                                      | Indica la libertad económica que posee cada individuo que le permite desarrollarse en sociedad.                                 |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Índice de Libertad Humana.                                         | Indica la carencia de restricciones obligatorias del individuo en sociedad.                                                     |
+|                                                                    |                                                                                                                                 |
+| *(The Human Freedom Index)*                                        | Toma valores de 0 a 10.                                                                                                         |
++--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+
+: Variables utilizadas para el análisis estadístico.
+
+---
+La explicación de los datos utilizados en este informe, se puede encontrar en el siguiente [anexo](https://javivalenzuela.github.io/Informe-Escrito/data_set/README.html)
+---
+
+## Metodología
+
+La metodología que utilizaremos en este informe será agrupar los países en sus distintos continentes para así proceder a analizar los puntajes obtenidos en las variables que anteriormente describimos.
+
+Una vez hecho lo anterior, procederemos a escoger los 5 países con mayor y menor puntaje de felicidad para así lograr visualizar de una manera más sencilla, en qué características se asemejan y diferencian entre ellos para luego hacer nuestras conclusiones mediante gráficos y tablas que resuman los contenidos analizados.
+
+## Resultados de nuestros datos:
+
+Ahora que ya hicimos la presentación y explicación de nuestros datos y sus variables para entender qué factores pueden incidir en la percepción de felicidad de las personas, podemos visualizar los siguientes resultados que nos ayudarán a responder nuestras [preguntas iniciales]():
+
+### Relación 
+
+```{r, echo= FALSE}
+
+knitr::include_graphics(here::here("figuras/relacion_pib_felicidad.png"))
+```
+
+Mostrar que efectivamente europa es la región más feliz y poder mostrar qué noticias se poseen sobre esos países como sueldo, educación y gobierno.
+
+## Conclusiones:
+
+Que se puede hacer para mejorar la felicidad: No todo es dinero.
+
+## Referencias:
+
+tu \<3

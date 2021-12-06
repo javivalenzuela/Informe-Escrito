@@ -1,37 +1,27 @@
 ---
-title: Preguntas iniciales
+title: "Preguntas iniciales"
 author: "Javiera Valenzuela"
-date: "08-10-2021"
-output: html_document
+date: "08-11-2021"
+output:
+  rmdformats::robobook:
+    highlight: kate
+    fig_height: 5
+    fig_caption: TRUE
+    lightbox: TRUE
+    thumbnails: FALSE
+    mathjax: "rmdformats"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+Mejorar la condición de bienestar o alcanzar un cierto nivel de felicidad en el día a día, son objetivos que tanto personas como naciones, se han propuesto alcanzar en diversas ocasiones.
 
-La base de datos que contiene nuestro informe presenta información de, aproximadamente, 160 países en donde se detalla mediante las siguientes variables: PIB per cápita, esperanza de vida, apoyo social, libertad, generosidad y confianza en el gobierno influyen en la escala de felicidad que se encuentra la población de dicho país.
+Las encuestas realizadas en un aproximado de 162 países por las entidades [World Happiness Report](https://worldhappiness.report/ed/2020/#appendices-and-data) y [Cato.org](https://www.cato.org/human-freedom-index/2020), otorgaron una gran cantidad de información que podría servir para analizar los diversos factores que pueden hacer variar la sensación de bienestar y/o felicidad en las personas alrededor del mundo.
 
-de distintos países durante los años 2019 y 2020 sobre el nivel de felicidad y libertad alcanzada por la población. El primer factor mencionado puede verse influenciado y/o correlacionado por las distintas variables que presenta la data como PIB per cápita, confiabilidad en el gobierno de turno, esperanza de vida, etc.\
-Para el segundo factor, el considerarse una persona libre puede garantizar y o poseer beneficios que pueden variar según cada persona y cultura, por lo que, a partir de los dos factores anteriores, nos surguieron las siguientes preguntas que esperamos responder a lo largo del proyecto:
+Con el objetivo de encontrar los factores que tanto personas como gobiernos deben tener en cuenta a la hora de tomar decisiones para mejorar su nivel de felicidad y bienestar de vida, nos surgieron las siguientes preguntas:
 
-1.  ¿Cómo se refleja en el mundo la libertad económica de región geográfica del mundo?
+1.  ¿Cuáles son los países con los mayores y menores índices de felicidad en el mundo?
+2.  ¿Qué similitudes y diferencias comparten esos países?
+3.  ¿Cómo ha incidido el COVID-19 mediante la mortalidad de esos países?
+4.  En los países más felices, ¿Existe una mayor igualdad y libertad de género?
+5.  ¿El dinero realmente hace la felicidad o influyen otras variables?
 
-2.  Los países con mejor índice de economía, ¿se consideran más felices?
-
-3.  ¿Que variables logran explicar mejor los índices de felicidad de los habitantes de distintos países?
-
-4.  ¿Cómo se ve afectada la diversidad de género y beneficios en países con elevados índices de libertad?
-
-5.  ¿Cómo se vieron afectados los países en relación al COVID?
-
-6.  ¿Cuáles son las zonas geográficas en donde existe un nivel más alto de felicidad?
-
-7.  ¿Se puede decir que el dinero, en este caso reflejado en el PIB per cápita, hace o influye en la felicidad de las personas?
-
-8.  ¿Los países más afectados por el COVID fueron los que tenían habitantes más felices?
-
-9.  ¿Ha aumentado y/o modificado el nivel de felicidad a lo largo de los años en las distintas zonas geográficas, es decir, se observan nuevas zonas?
-
-10. ¿Hay coincidencia entre la confianza y ayuda del gobierno con la felicidad alcanzada por los habitantes de los distintos países?
-
-11. ¿Existe alguna mejora en la desigualdad social en los países que se consideran más felices?
+Con las interrogantes anteriores, pretendemos concluir en nuestro informe en qué variables se deberían concentrar las políticas y decisiones de los distintos países y personas alrededor del mundo para mejorar su nivel de felicidad y/o mantenerlo estable a través del tiempo.
